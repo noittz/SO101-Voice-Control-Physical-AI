@@ -1,0 +1,3 @@
+実験で使用した環境: Windows Vosk / WSL2 Ubuntu / LeRobot / Ollama qwen3:1.7b
+LeRobotとVoskの実際のバージョンは、環境から確認して記録してください。
+この公開フォルダには仮想環境・モデル・校正データを同梱しません。
