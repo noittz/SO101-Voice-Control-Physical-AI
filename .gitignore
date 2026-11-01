@@ -1,0 +1,41 @@
+# Credentials / settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+*token*
+# Local runtime and backups
+backups/
+backup*/
+*.tar
+*.tar.gz
+*.zip
+logs/
+*.log
+*.jsonl
+voice_command.json
+recognition_log*
+# Local calibrated positions and hardware identifiers
+so101_poses/
+**/storage_pose.json
+**/transition_pose.json
+**/work_home.json
+# Python / tools
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.idea/
+# Vosk model files
+vosk-model*/
+models/
+# Windows
+Thumbs.db
+.DS_Store
